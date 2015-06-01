@@ -1,0 +1,112 @@
+.wrapper{
+	height:100% ;
+
+	width: 100%;
+	background-color: #151418;
+}
+
+.container{
+	height:100%;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	background-color: #151418;
+}
+
+nav{
+
+	height:30px;
+
+	
+}
+body{
+	margin:0px;
+}
+nav{
+	font-size: 18px;
+}
+
+nav li:hover{
+	background-color: #FF9800;
+}
+nav li{
+	display: inline-block;
+	list-style-type: none;
+	width:10%;
+	background-color: #7E8AA2;
+	text-align: center;
+	margin-left:0%;
+	height:30px;
+	border-radius: 5px 5px 0px 0px;
+	font-weight: bold;
+	color:#151418;
+	font-family: 'Indie Flower', cursive;
+
+}
+.text{
+	text-align: center;
+	color:white;
+	padding-top:30px;
+	font-size: 3em;	
+	font-family: 'Pacifico', cursive;
+}
+.profile{
+	height:150px;
+	width: 150px;
+	border-radius:150px;
+	margin-left: 42.5%;
+	margin-top: 
+}
+.active{
+	background-color:#ffffff;
+	color:#151418;
+}
+.navigation{
+	height:30px;
+	width:100%;
+	background-color: #263248;
+	padding:0px 0px 0px 0px;
+}
+.content{
+	background-color:#ffffff;
+	
+	padding: 5%;
+}
+main{
+	color:#262C32;
+	background-color:#ffffff;
+	margin:none;
+	font-family: 'Poiret One', cursive;	
+
+}
+
+section{
+
+}
+
+
+.title{
+	height:300px;
+	width:100%;
+	background-color:#263248;
+	border-radius: 30px 30px 0px 0px;
+}
+.socail-media li{
+	height:10%;
+	width:20px;
+	background-color: blue;
+	padding-right: 2px;
+}
+
+footer{
+	height:100px;
+	background-color:#263248;
+	border-radius: 0px 0px 30px 30px;
+	text-align: center;
+	color:#ffffff;
+	list-style-type: none;
+	font-family: 'Poiret One', cursive;	
+}
+footer a{
+	color:white;
+}
