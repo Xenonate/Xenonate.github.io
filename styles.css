@@ -1,0 +1,100 @@
+.wrapper{
+	height:100% ;
+
+	width: 100%;
+	background-color: 
+}
+
+.container{
+	height:600px;
+	width: 100%;
+	background-color: white;	
+}
+
+.profile{
+	height:300px;
+	width: 300px;
+	border-radius:300px;
+	margin-left: 42.5%;
+	margin-top: 5%;
+}
+.media{
+	height:50px;
+	width: 300px;
+	
+	margin-left: 42.5%;
+	margin-top: 1%;
+	background-color: black;
+
+		display: inline-block;
+	list-style-type: none;
+	
+	text-align: center;
+	
+	font-weight: bold;
+	font-size:1.5em;
+	color:white;
+	font-family: 'Indie Flower', cursive;
+}
+.title{
+	height:50px;
+	width: 400px;
+	
+	margin-left: 39%;
+	margin-top: 1%;
+	
+	text-align: center;
+	color:#151418;
+	padding-top:30px;
+	font-size: 2.5em;	
+	font-family: 'Pacifico', cursive;
+}
+nav{
+	height:50px;
+	width: 800px;
+	
+	margin-left: 25%;
+	margin-top: 1%;
+
+}
+nav li{
+	display: inline-block;
+	list-style-type: none;
+	padding:10px;
+	text-align: center;
+	margin-left:6%;
+	height:30px;
+	font-weight: bold;
+	font-size:20px;
+	color:#151418;
+	font-family: 'Indie Flower', cursive;
+}
+nav ul ul {
+	display: none;
+}
+
+nav ul li:hover > ul {
+		display: block;
+}
+
+nav ul:after {
+	content: "";
+	clear: both; 
+	display: block;
+}
+
+nav ul li {
+	float: left;
+}
+nav ul li:hover {
+	color:orange;
+		
+}
+nav ul li:hover a {
+	color: orange;
+}
+	
+
+/*nav ul ul ul {
+	position: absolute; left: 100%; top:0;
+}*/
